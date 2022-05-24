@@ -26,6 +26,7 @@ test:
     - looseversion
   requires:
     - pip
+    - pytest
   commands:
     - pip check
 
