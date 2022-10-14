@@ -1,5 +1,5 @@
 {% set name = "looseversion" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b339dfde67680e9c5c2e96673e52bee9f94d2f0e1b8f4cbfd86d32311e86b952
+  sha256: 8b9f2e649eb81620c4527ba33ba87505eb69d4bb3f66523b34182a0450c294bc
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/effigies/looseversion
-  summary: 'Version numbering for anarchists and software realists'
+  summary: Version numbering for anarchists and software realists
   description: |
     looseversion is a drop-in replacement for the original distutils.version.LooseVersion.
     It implements an identical interface and comparison logic to `LooseVersion`.
