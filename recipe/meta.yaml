@@ -1,5 +1,5 @@
 {% set name = "looseversion" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 035288860e1afe67d63ea9c700dd9d095c724e2e5722a39029dd91652d4316ed
+  sha256: 5de17b0286a6014380acbc2323b49c73d22b54d4aef8128c89964a320a259514
 
 build:
   noarch: python
