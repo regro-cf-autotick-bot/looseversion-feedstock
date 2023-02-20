@@ -1,5 +1,5 @@
 {% set name = "looseversion" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 035288860e1afe67d63ea9c700dd9d095c724e2e5722a39029dd91652d4316ed
+  sha256: c53cd228f8ceecd791f6ba9918ad750952afa672c4c896488e6297e6f72143fc
 
 build:
   noarch: python
@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3
     - pip
-    - flit-core >=3.2,<4
+    - hatchling
   run:
     - python >=3
 
