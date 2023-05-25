@@ -1,11 +1,11 @@
-About looseversion
-==================
+About looseversion-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/looseversion-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/effigies/looseversion
 
 Package license: PSF-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/looseversion-feedstock/blob/main/LICENSE.txt)
 
 Summary: Version numbering for anarchists and software realists
 
